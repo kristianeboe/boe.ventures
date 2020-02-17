@@ -1,30 +1,41 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">Boe Ventures</h1>
-      <h2 class="subtitle">By Kristian Elset Boe</h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green"
-          >Documentation</a
-        >
-        <a
-          href="https://github.com/kristianeboe/boe.ventures"
-          target="_blank"
-          class="button--grey"
-          >GitHub</a
-        >
+  <div>
+    <div class="container">
+      <div>
+        <logo />
+        <h1 class="title">Boe Ventures</h1>
+        <h2 class="subtitle">By Kristian Elset Boe</h2>
+        <div class="links">
+          <nuxt-link to="/resume" class="button--green">
+            Resume
+          </nuxt-link>
+          <a href="https://nuxtjs.org/" target="_blank" class="button--green"
+            >Documentation</a
+          >
+          <a
+            href="https://github.com/kristianeboe/boe.ventures"
+            target="_blank"
+            class="button--grey"
+            >GitHub</a
+          >
+        </div>
       </div>
     </div>
+    <Landing />
+    <Portfolio />
   </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
+import Landing from '@/components/Landing'
+import Portfolio from '@/components/Portfolio'
 
 export default {
   components: {
-    Logo
+    Logo,
+    Landing,
+    Portfolio
   }
 }
 </script>
