@@ -1,9 +1,7 @@
 <template>
   <section class="landing flex min-h-screen">
-    <div class="w-full md:w-1/2 p-64">
-      <h1>Boe Ventures</h1>
-      <br />
-      <p>Tagline</p>
+    <div class="w-full md:w-1/2 p-12 flex items-center">
+      <img :src="logoPath" class="w-full h-auto" alt="Logo" />
     </div>
     <div class="w-full md:w-1/2 p-64">
       <div class="menu">
@@ -20,7 +18,15 @@
 </template>
 
 <script>
-export default {}
+import LogoWhiteBG from '@/assets/logo/logoWhiteBg.svg'
+
+export default {
+  data() {
+    return {
+      logoPath: LogoWhiteBG
+    }
+  }
+}
 </script>
 
 <style></style>
