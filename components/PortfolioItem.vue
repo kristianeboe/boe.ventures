@@ -10,11 +10,13 @@
       :class="`portfolioItem flex flex-col bg-cover ${background.position}`"
     >
       <div class="">
-        <h3>
+        <h3
+          class=" text-3xl leading-8 font-extrabold tracking-tight text-gray-300 sm:text-4xl sm:leading-10"
+        >
           {{ title }}
         </h3>
         <br />
-        <p>
+        <p class="mt-2 text-base leading-6 text-gray-100">
           {{ description }}
         </p>
       </div>

@@ -14,7 +14,14 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href: 'https://rsms.me/inter/inter.css'
+      }
+    ]
   },
   /*
    ** Customize the progress-bar color
@@ -30,6 +37,7 @@ export default {
   plugins: [],
   /*
    ** Nuxt.js dev-modules
+
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
@@ -37,6 +45,14 @@ export default {
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss'
   ],
+  purgeCSS: {
+    extractors: [
+      {
+        extractor: (content) => content.match(/[\w-/.:]+(?<!:)/g) || [],
+        extensions: ['html', 'vue', 'js']
+      }
+    ]
+  },
   /*
    ** Nuxt.js modules
    */

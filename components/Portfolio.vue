@@ -53,11 +53,10 @@ export default {
           link: 'https://swipestats.io/'
         },
         {
-          title: 'Boostamins',
-          description:
-            'A hyper optimized webshop for vitamins and quality suppliments',
+          title: 'My next project',
+          description: 'Will we be working together?',
           background: { image: 'boostamins.jpg', position: 'bg-center' },
-          link: 'https://boostamins.firebaseapp.com'
+          link: 'mailto:kristian@boe.ventures'
         }
       ]
     }
