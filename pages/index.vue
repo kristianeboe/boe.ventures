@@ -114,7 +114,7 @@
       <Portfolio />
     </section>
     <CTASection />
-    <section class="landing">
+    <section id="about-me" class="border-b border-gray-200">
       <div class="relative bg-white overflow-hidden py-16">
         <div class="max-w-screen-xl mx-auto flex justify-around ">
           <div

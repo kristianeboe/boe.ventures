@@ -40,7 +40,7 @@
     </div>
     <div class="container bg-white rounded-lg mx-auto shadow-lg mb-24 -mt-24">
       <section class="intro">
-        <div class="bg-gray-50 overflow-hidden rounded-lg">
+        <div class="overflow-hidden rounded-lg">
           <div
             class="relative max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8"
           >

@@ -1,6 +1,8 @@
 <template>
   <div>
-    <nav class="relative flex items-center justify-between px-4 sm:px-6 py-6">
+    <nav
+      class="relative max-w-screen-xl mx-auto flex items-center justify-between px-4 sm:px-6 py-6"
+    >
       <div class="flex items-center flex-1">
         <nuxt-link to="/">
           <img :src="logoPath" class="h-24 w-auto sm:h-10" alt="logo" />
