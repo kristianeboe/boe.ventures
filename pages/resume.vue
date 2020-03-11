@@ -8,7 +8,7 @@
           >
             Hi, I'm Kristian
             <br />
-            <span class="text-bvRed">CTO for hire</span>
+            <span class="text-bvRed">interrim CTO for hire</span>
           </h2>
           <p
             class="mt-3 max-w-md mx-auto text-base text-gray-300 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
@@ -18,7 +18,7 @@
           <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
             <div class="rounded-md shadow">
               <a
-                href="#"
+                href="https://calendly.com/boe-ventures/initial-contract-meeting"
                 class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-bvRed hover:bg-bvRed focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
               >
                 Get in touch
@@ -69,16 +69,14 @@
                     >
                   </li>
                   <li>
-                    <a
-                      class="no-underline text-blue-500 text-lg"
-                      href="#projects"
+                    <a class="no-underline text-blue-500 text-lg" href="#cv"
                       >Traditional CV</a
                     >
                   </li>
                   <li>
                     <a
                       class="no-underline text-blue-500 text-lg"
-                      href="#projects"
+                      href="#testimonials"
                       >Testimonials</a
                     >
                   </li>
@@ -110,8 +108,10 @@
                       System design & architecture
                     </h5>
                     <p class="mt-2 text-base leading-6 text-gray-500">
-                      Consequuntur omnis dicta cumque, inventore atque ab
-                      dolores aspernatur tempora ab doloremque.
+                      Big picture thinking and seeing how all the components of
+                      a system should fit together can be tricky. Luckily, I've
+                      lead enough projects to have a pretty good feel for it at
+                      this point.
                     </p>
                   </div>
                 </div>
@@ -230,6 +230,7 @@
       </section>
       <CTASection />
       <section
+        id="cv"
         class="flex flex-col bg-gray-100 py-16 relative px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl"
       >
         <div class=" lg:flex lg:items-top lg:justify-between">
@@ -255,7 +256,7 @@
             </a>
           </span>
         </div>
-        <div class="self-center my-12 shadow-lg">
+        <div class="self-center my-12 shadow-lg max-w-screen-md mx-auto">
           <CVPdf />
         </div>
 

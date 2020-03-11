@@ -20,12 +20,12 @@
           </a>
         </div>
         <div class="ml-3 inline-flex rounded-md shadow">
-          <a
-            href="#"
+          <nuxt-link
+            to="/resume"
             class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-bvRed bg-white hover:text-bvRed focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
           >
             View resume
-          </a>
+          </nuxt-link>
         </div>
       </div>
     </div>

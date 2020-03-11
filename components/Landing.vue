@@ -14,7 +14,7 @@
               <h2
                 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl"
               >
-                Independent
+                Interrim
                 <br class="hidden md:block" />
                 <span class="text-bvRed">CTO for hire</span>
               </h2>

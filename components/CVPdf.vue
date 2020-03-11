@@ -16,4 +16,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.textLayer {
+  display: none;
+}
+</style>
