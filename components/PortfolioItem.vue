@@ -9,7 +9,7 @@
       }"
       :class="`portfolioItem flex flex-col bg-cover ${background.position}`"
     >
-      <div class="">
+      <div class="max-w-xs mx-auto">
         <h3
           class=" text-3xl leading-8 font-extrabold tracking-tight text-gray-300 sm:text-4xl sm:leading-10"
         >

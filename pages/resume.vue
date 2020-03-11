@@ -6,16 +6,14 @@
           <h2
             class="text-4xl tracking-tight leading-10 font-extrabold text-white sm:text-5xl sm:leading-none md:text-6xl"
           >
-            Hi, I'm Kristian, experienced, driven,
-            <br class="xl:hidden" />
-            <span class="text-bvRed">independent consultant</span>
+            Hi, I'm Kristian
+            <br />
+            <span class="text-bvRed">CTO for hire</span>
           </h2>
           <p
-            class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
+            class="mt-3 max-w-md mx-auto text-base text-gray-300 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
           >
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-            fugiat aliqua.
+            I believe technology should be a path to freedom, not frustration.
           </p>
           <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
             <div class="rounded-md shadow">
@@ -49,19 +47,42 @@
                 <h3
                   class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
                 >
-                  Intro
+                  Intro & Index
                 </h3>
                 <p class="mt-3 text-lg leading-7 text-gray-500">
-                  Ambitious young professional working in consulting, starting
-                  startups, learning new technologies and traveling the world. I
-                  also read books on topics like leadership, innovation and
-                  science fiction.
+                  With a Masters degree in artificial intelligence and a passion
+                  for product development on the web I help small and large
+                  clients utilise their tech stack to the fullest, all while
+                  working remotely from all over the world.
                 </p>
                 <p class="mt-3 text-lg leading-7 text-gray-500">
-                  Experienced with working in multicultural/multidisciplinary
-                  teams at clients, and conferences at Stanford University, CA,
-                  and TU Delft, Netherlands.
+                  Because of my diverse experience I can assist with everything
+                  from product roadmapping and specking to actual implementation
+                  in both web development and data science projects.
                 </p>
+                <ul class="list-disc mt-3 list-inside">
+                  <li>
+                    <a
+                      class="no-underline text-blue-500 text-lg"
+                      href="#projects"
+                      >Projects</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="no-underline text-blue-500 text-lg"
+                      href="#projects"
+                      >Traditional CV</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="no-underline text-blue-500 text-lg"
+                      href="#projects"
+                      >Testimonials</a
+                    >
+                  </li>
+                </ul>
               </div>
               <div
                 class="mt-10 sm:grid sm:grid-cols-2 sm:col-gap-8 sm:row-gap-10 lg:col-span-2 lg:mt-0"
@@ -77,16 +98,16 @@
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="M8.68387 13.3419C8.88616 12.9381 9 12.4824 9 12C9 11.5176 8.88616 11.0619 8.68387 10.6581M8.68387 13.3419C8.19134 14.3251 7.17449 15 6 15C4.34315 15 3 13.6569 3 12C3 10.3431 4.34315 9 6 9C7.17449 9 8.19134 9.67492 8.68387 10.6581M8.68387 13.3419L15.3161 16.6581M8.68387 10.6581L15.3161 7.34193M15.3161 7.34193C15.8087 8.32508 16.8255 9 18 9C19.6569 9 21 7.65685 21 6C21 4.34315 19.6569 3 18 3C16.3431 3 15 4.34315 15 6C15 6.48237 15.1138 6.93815 15.3161 7.34193ZM15.3161 16.6581C15.1138 17.0619 15 17.5176 15 18C15 19.6569 16.3431 21 18 21C19.6569 21 21 19.6569 21 18C21 16.3431 19.6569 15 18 15C16.8255 15 15.8087 15.6749 15.3161 16.6581Z"
+                        stroke-width="2"
                         stroke-linecap="round"
                         stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
                       />
                     </svg>
                   </div>
                   <div class="mt-5">
                     <h5 class="text-lg leading-6 font-medium text-gray-900">
-                      React / Vue
+                      System design & architecture
                     </h5>
                     <p class="mt-2 text-base leading-6 text-gray-500">
                       Consequuntur omnis dicta cumque, inventore atque ab
@@ -105,20 +126,33 @@
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="M4 5C4 4.44772 4.44772 4 5 4H19C19.5523 4 20 4.44772 20 5V7C20 7.55228 19.5523 8 19 8H5C4.44772 8 4 7.55228 4 7V5Z"
+                        stroke-width="2"
                         stroke-linecap="round"
                         stroke-linejoin="round"
+                      />
+                      <path
+                        d="M4 13C4 12.4477 4.44772 12 5 12H11C11.5523 12 12 12.4477 12 13V19C12 19.5523 11.5523 20 11 20H5C4.44772 20 4 19.5523 4 19V13Z"
                         stroke-width="2"
-                        d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M16 13C16 12.4477 16.4477 12 17 12H19C19.5523 12 20 12.4477 20 13V19C20 19.5523 19.5523 20 19 20H17C16.4477 20 16 19.5523 16 19V13Z"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
                       />
                     </svg>
                   </div>
                   <div class="mt-5">
                     <h5 class="text-lg leading-6 font-medium text-gray-900">
-                      Node & Express
+                      Frontend and design
                     </h5>
                     <p class="mt-2 text-base leading-6 text-gray-500">
-                      Corporis quisquam nostrum nulla veniam recusandae
-                      temporibus aperiam officia incidunt at distinctio ratione.
+                      I use React and Vue on the frontend along with their
+                      frameworks Next and Nuxt. I favour flat design and in
+                      particular the esthetics of Tailwind CSS & UI.
                     </p>
                   </div>
                 </div>
@@ -133,21 +167,21 @@
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="M10 20L14 4M18 8L22 12L18 16M6 16L2 12L6 8"
+                        stroke-width="2"
                         stroke-linecap="round"
                         stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M13 10V3L4 14h7v7l9-11h-7z"
                       />
                     </svg>
                   </div>
                   <div class="mt-5">
                     <h5 class="text-lg leading-6 font-medium text-gray-900">
-                      No/MySQL
+                      API's and databases
                     </h5>
                     <p class="mt-2 text-base leading-6 text-gray-500">
-                      Omnis, illo delectus? Libero, possimus nulla nemo tenetur
-                      adipisci repellat dolore eligendi velit doloribus
-                      mollitia.
+                      REST or GraphQL is where it's at for API's these days, and
+                      my language of choice is Node.js. For databases I mix and
+                      match No/MySql depending on the needs of the project.
                     </p>
                   </div>
                 </div>
@@ -162,20 +196,26 @@
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="M10.3246 4.31731C10.751 2.5609 13.249 2.5609 13.6754 4.31731C13.9508 5.45193 15.2507 5.99038 16.2478 5.38285C17.7913 4.44239 19.5576 6.2087 18.6172 7.75218C18.0096 8.74925 18.5481 10.0492 19.6827 10.3246C21.4391 10.751 21.4391 13.249 19.6827 13.6754C18.5481 13.9508 18.0096 15.2507 18.6172 16.2478C19.5576 17.7913 17.7913 19.5576 16.2478 18.6172C15.2507 18.0096 13.9508 18.5481 13.6754 19.6827C13.249 21.4391 10.751 21.4391 10.3246 19.6827C10.0492 18.5481 8.74926 18.0096 7.75219 18.6172C6.2087 19.5576 4.44239 17.7913 5.38285 16.2478C5.99038 15.2507 5.45193 13.9508 4.31731 13.6754C2.5609 13.249 2.5609 10.751 4.31731 10.3246C5.45193 10.0492 5.99037 8.74926 5.38285 7.75218C4.44239 6.2087 6.2087 4.44239 7.75219 5.38285C8.74926 5.99037 10.0492 5.45193 10.3246 4.31731Z"
+                        stroke-width="2"
                         stroke-linecap="round"
                         stroke-linejoin="round"
+                      />
+                      <path
+                        d="M15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z"
                         stroke-width="2"
-                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
                       />
                     </svg>
                   </div>
                   <div class="mt-5">
                     <h5 class="text-lg leading-6 font-medium text-gray-900">
-                      Devops
+                      DevOps & Cloud
                     </h5>
                     <p class="mt-2 text-base leading-6 text-gray-500">
-                      Veniam necessitatibus reiciendis fugit explicabo dolorem
-                      nihil et omnis assumenda odit? Quisquam unde accusantium.
+                      Using CI/CD tools is essential in this day and age and
+                      turning API's serverless is a hobby of mine.
                     </p>
                   </div>
                 </div>
@@ -190,7 +230,7 @@
       </section>
       <CTASection />
       <section
-        class="flex flex-col bg-gray-100 py-16 relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl"
+        class="flex flex-col bg-gray-100 py-16 relative px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl"
       >
         <div class=" lg:flex lg:items-top lg:justify-between">
           <div class="relative">

@@ -1,7 +1,9 @@
 <template>
   <div class="layout">
     <Nav />
-    <nuxt />
+    <main>
+      <nuxt />
+    </main>
     <Footer />
   </div>
 </template>

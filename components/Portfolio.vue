@@ -1,5 +1,7 @@
 <template>
-  <section class="min-h-screen projects-wrapper">
+  <section
+    class="min-h-screen grid grid-cols-1 grid-flow-row  md:grid-cols-2 xl:grid-cols-3 "
+  >
     <PortfolioItem
       v-for="item in portfolioItems"
       :key="item.title"

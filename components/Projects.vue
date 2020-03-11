@@ -54,8 +54,7 @@
             Promad.life
           </h4>
           <p class="mt-3 text-lg leading-7 text-gray-500">
-            Upload your dating data anonymously and compare it to demographics
-            from around the world!
+            Curated content & community for the Professional Nomad
           </p>
 
           <ul class="mt-10">
@@ -75,14 +74,14 @@
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="2"
-                        d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                        d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
                       />
                     </svg>
                   </div>
                 </div>
                 <div class="ml-4">
                   <h5 class="text-lg leading-6 font-medium text-gray-900">
-                    Frontend: Vue
+                    Recommendations for destinations, gear and software
                   </h5>
                   <p class="mt-2 text-base leading-6 text-gray-500">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -108,14 +107,14 @@
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="2"
-                        d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
+                        d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
                       />
                     </svg>
                   </div>
                 </div>
                 <div class="ml-4">
                   <h5 class="text-lg leading-6 font-medium text-gray-900">
-                    Backend: Node and Express
+                    Blog & newsletter
                   </h5>
                   <p class="mt-2 text-base leading-6 text-gray-500">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -141,14 +140,20 @@
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="2"
-                        d="M13 10V3L4 14h7v7l9-11h-7z"
+                        d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
                       />
                     </svg>
                   </div>
                 </div>
                 <div class="ml-4">
                   <h5 class="text-lg leading-6 font-medium text-gray-900">
-                    Database: MongoDB
+                    Nuxt and Vue , Netlify & AWS Lambda
                   </h5>
                   <p class="mt-2 text-base leading-6 text-gray-500">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -190,17 +195,21 @@
             </defs>
             <rect width="784" height="404" fill="url(#svg-pattern-squares-2)" />
           </svg>
-          <img :src="ssImg" class="relative mx-auto" width="490" alt="" />
+          <img
+            :src="require('@/assets/images/portfolioItems/promadLanding.jpg')"
+            class="project-screenshot"
+            alt="Promad.life landing screenshot"
+          />
           <div class="flex mt-6 justify-center">
             <a
               href="https://promad.life"
-              class="rounded-lg px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 bg-bvRed hover:bg-red-300 md:text-lg xl:text-base text-white font-semibold leading-tight shadow-md"
+              class="rounded-lg px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 bg-bvRed hover:bg-red-300 md:text-lg xl:text-base text-white font-semibold leading-tight shadow-md z-10"
               data-v-fac77be2=""
               >Visit site</a
             >
             <a
               href="/insights?swipestatsid=b98535635fe77db6324d881ac92190e5&amp;demo=true"
-              class="ml-4 rounded-lg px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 bg-white hover:bg-gray-200 md:text-lg xl:text-base text-gray-800 font-semibold leading-tight shadow-md"
+              class="ml-4 rounded-lg px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 bg-white hover:bg-gray-200 md:text-lg xl:text-base text-gray-800 font-semibold leading-tight shadow-md z-10"
               data-v-fac77be2=""
               >Source code</a
             >
@@ -245,12 +254,11 @@
             <h4
               class="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9"
             >
-              Yaps.life
+              Homehunter.ai
             </h4>
             <p class="mt-3 text-lg leading-7 text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              ex obcaecati natus eligendi delectus, cum deleniti sunt in labore
-              nihil quod quibusdam expedita nemo.
+              Organize the search for your next home with Artificial
+              Intelligence.
             </p>
 
             <ul class="mt-10">
@@ -270,14 +278,14 @@
                           stroke-linecap="round"
                           stroke-linejoin="round"
                           stroke-width="2"
-                          d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
+                          d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
                         />
                       </svg>
                     </div>
                   </div>
                   <div class="ml-4">
                     <h5 class="text-lg leading-6 font-medium text-gray-900">
-                      Mobile notifications
+                      Find your optimal home
                     </h5>
                     <p class="mt-2 text-base leading-6 text-gray-500">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -303,14 +311,52 @@
                           stroke-linecap="round"
                           stroke-linejoin="round"
                           stroke-width="2"
-                          d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                          d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
                         />
                       </svg>
                     </div>
                   </div>
                   <div class="ml-4">
                     <h5 class="text-lg leading-6 font-medium text-gray-900">
-                      Reminder emails
+                      Alone or in groups
+                    </h5>
+                    <p class="mt-2 text-base leading-6 text-gray-500">
+                      Newlyweds or fratmates, Homehunter takes all users
+                      preferences into consideration when sorting apartments.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="mt-10">
+                <div class="flex">
+                  <div class="flex-shrink-0">
+                    <div
+                      class="flex items-center justify-center h-12 w-12 rounded-md bg-bvRed text-white"
+                    >
+                      <svg
+                        class="h-6 w-6"
+                        stroke="currentColor"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+                        />
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="ml-4">
+                    <h5 class="text-lg leading-6 font-medium text-gray-900">
+                      Typescript, React & Heroku
                     </h5>
                     <p class="mt-2 text-base leading-6 text-gray-500">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -356,7 +402,19 @@
                 fill="url(#svg-pattern-squares-4)"
               />
             </svg>
-            <img :src="yapsImg" class="relative mx-auto" width="490" alt="" />
+            <img
+              :src="require('@/assets/images/portfolioItems/yaps.jpg')"
+              class="project-screenshot"
+              alt="Homehunter.ai landing screenshot"
+            />
+            <div class="flex mt-6 justify-center">
+              <a
+                href="https://homehunter.ai"
+                class="rounded-lg px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 bg-bvRed hover:bg-red-300 md:text-lg xl:text-base text-white font-semibold leading-tight shadow-md z-10"
+                data-v-fac77be2=""
+                >Visit site</a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -389,17 +447,17 @@
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="M13 7H21M21 7V15M21 7L13 15L9 11L3 17"
+                        stroke-width="2"
                         stroke-linecap="round"
                         stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
                       />
                     </svg>
                   </div>
                 </div>
                 <div class="ml-4">
                   <h5 class="text-lg leading-6 font-medium text-gray-900">
-                    Frontend: Vue
+                    Visualize data
                   </h5>
                   <p class="mt-2 text-base leading-6 text-gray-500">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -422,17 +480,17 @@
                       viewBox="0 0 24 24"
                     >
                       <path
+                        d="M8.68387 13.3419C8.88616 12.9381 9 12.4824 9 12C9 11.5176 8.88616 11.0619 8.68387 10.6581M8.68387 13.3419C8.19134 14.3251 7.17449 15 6 15C4.34315 15 3 13.6569 3 12C3 10.3431 4.34315 9 6 9C7.17449 9 8.19134 9.67492 8.68387 10.6581M8.68387 13.3419L15.3161 16.6581M8.68387 10.6581L15.3161 7.34193M15.3161 7.34193C15.8087 8.32508 16.8255 9 18 9C19.6569 9 21 7.65685 21 6C21 4.34315 19.6569 3 18 3C16.3431 3 15 4.34315 15 6C15 6.48237 15.1138 6.93815 15.3161 7.34193ZM15.3161 16.6581C15.1138 17.0619 15 17.5176 15 18C15 19.6569 16.3431 21 18 21C19.6569 21 21 19.6569 21 18C21 16.3431 19.6569 15 18 15C16.8255 15 15.8087 15.6749 15.3161 16.6581Z"
+                        stroke-width="2"
                         stroke-linecap="round"
                         stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
                       />
                     </svg>
                   </div>
                 </div>
                 <div class="ml-4">
                   <h5 class="text-lg leading-6 font-medium text-gray-900">
-                    Backend: Node and Express
+                    Share and compare
                   </h5>
                   <p class="mt-2 text-base leading-6 text-gray-500">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -507,7 +565,27 @@
             </defs>
             <rect width="784" height="404" fill="url(#svg-pattern-squares-2)" />
           </svg>
-          <img :src="ssImg" class="relative mx-auto z-10" width="490" alt="" />
+          <img
+            :src="
+              require('@/assets/images/portfolioItems/swipestats-graphs.jpg')
+            "
+            class="project-screenshot"
+            alt="Swipestats.io graph screenshot"
+          />
+          <div class="flex mt-6 justify-center">
+            <a
+              href="https://swipestats.io"
+              class="rounded-lg px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 bg-bvRed hover:bg-red-300 md:text-lg xl:text-base text-white font-semibold leading-tight shadow-md z-10"
+              data-v-fac77be2=""
+              >Visit site</a
+            >
+            <a
+              href="https://github.com/kristianeboe/swipestats.io"
+              class="ml-4 rounded-lg px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 bg-white hover:bg-gray-200 md:text-lg xl:text-base text-gray-800 font-semibold leading-tight shadow-md z-10"
+              data-v-fac77be2=""
+              >Source code</a
+            >
+          </div>
         </div>
       </div>
       <svg
@@ -543,17 +621,16 @@
 </template>
 
 <script>
-import SwipestatsImage from '@/assets/images/portfolioItems/swipestats.jpg'
-import YapsImage from '@/assets/images/portfolioItems/yaps.jpg'
-
 export default {
   data() {
-    return {
-      ssImg: SwipestatsImage,
-      yapsImg: YapsImage
-    }
+    return {}
   }
 }
 </script>
 
-<style></style>
+<style lang="css">
+.project-screenshot {
+  @apply relative mx-auto z-10 shadow-lg;
+  width: 490px;
+}
+</style>
