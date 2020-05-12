@@ -8,7 +8,7 @@
           >
             Hi, I'm Kristian
             <br />
-            <span class="text-bvRed">interrim CTO for hire</span>
+            <span class="text-bvRed">interim CTO for hire</span>
           </h2>
           <p
             class="mt-3 max-w-md mx-auto text-base text-gray-300 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
