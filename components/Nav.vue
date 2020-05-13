@@ -45,7 +45,8 @@
         <span class="inline-flex rounded-md shadow-md">
           <span class="inline-flex rounded-md shadow-xs">
             <a
-              href="https://calendly.com/boe-ventures/initial-contract-meeting"
+              href="https://www.linkedin.com/in/kristianeboe"
+              target="blank"
               class="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-bvRed bg-white hover:bg-gray-50 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
             >
               Get in touch

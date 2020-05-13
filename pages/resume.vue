@@ -73,13 +73,13 @@
                       >Traditional CV</a
                     >
                   </li>
-                  <li>
+                  <!-- <li>
                     <a
                       class="no-underline text-blue-500 text-lg"
                       href="#testimonials"
                       >Testimonials</a
                     >
-                  </li>
+                  </li> -->
                 </ul>
               </div>
               <div
@@ -271,7 +271,7 @@
           </a>
         </span>
       </section>
-      <Testimonials />
+      <!-- <Testimonials /> -->
       <CTASection class="rounded-lg" />
     </div>
   </section>
@@ -281,7 +281,7 @@
 import CVPdf from '@/components/CVPdf'
 import Projects from '@/components/Projects'
 import PastCompanies from '@/components/PastCompanies'
-import Testimonials from '@/components/Testimonials'
+// import Testimonials from '@/components/Testimonials'
 import CTASection from '@/components/CTASection'
 
 export default {
@@ -289,7 +289,7 @@ export default {
     CVPdf,
     Projects,
     PastCompanies,
-    Testimonials,
+
     CTASection
   }
 }

@@ -6,17 +6,17 @@
       <h2
         class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
       >
-        Want to work together?
+        Want to connect?
         <br />
         <span class="text-bvRed">Let's talk!</span>
       </h2>
       <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0">
         <div class="inline-flex rounded-md shadow">
           <a
-            href="https://calendly.com/boe-ventures/initial-contract-meeting"
+            href="https://www.linkedin.com/in/kristianeboe"
             class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-bvRed hover:bg-bvRed focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
           >
-            Book a meeting
+            LinkedIn
           </a>
         </div>
         <div class="ml-3 inline-flex rounded-md shadow">

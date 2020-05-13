@@ -85,8 +85,8 @@
                           Transparency on progress and profits
                         </h5>
                         <p class="mt-2 text-base leading-6 text-gray-500">
-                          I belive clear communication progress and pricing is
-                          essential for good collaboration.
+                          I belive clear communication on progress and pricing
+                          is essential for good collaboration.
                         </p>
                       </div>
                     </div>
@@ -150,10 +150,10 @@
                           Remote First
                         </h5>
                         <p class="mt-2 text-base leading-6 text-gray-500">
-                          Remote work is taking the world by storm. I belive it
-                          is here to stay, not because it lets people travel,
-                          but because companies managed Remote First are simply
-                          better run at their core.
+                          Remote work is currently taking the world by storm. I
+                          belive it is here to stay, not just because it lets
+                          people travel, but because of the flexibility it
+                          affords.
                         </p>
                       </div>
                     </div>
