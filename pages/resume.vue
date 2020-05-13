@@ -6,9 +6,9 @@
           <h2
             class="text-4xl tracking-tight leading-10 font-extrabold text-white sm:text-5xl sm:leading-none md:text-6xl"
           >
-            Hi, I'm Kristian
+            Hi, I'm Kristian.
             <br />
-            <span class="text-bvRed">interim CTO for hire</span>
+            <span class="text-bvRed">This is my resume</span>
           </h2>
           <p
             class="mt-3 max-w-md mx-auto text-base text-gray-300 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
@@ -18,7 +18,8 @@
           <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
             <div class="rounded-md shadow">
               <a
-                href="https://calendly.com/boe-ventures/initial-contract-meeting"
+                href="https://www.linkedin.com/in/kristianeboe"
+                target="blank"
                 class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-bvRed hover:bg-bvRed focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
               >
                 Get in touch
@@ -55,11 +56,11 @@
                   clients utilise their tech stack to the fullest, all while
                   working remotely from all over the world.
                 </p>
-                <p class="mt-3 text-lg leading-7 text-gray-500">
+                <!-- <p class="mt-3 text-lg leading-7 text-gray-500">
                   Because of my diverse experience I can assist with everything
                   from product roadmapping and specking to actual implementation
                   in both web development and data science projects.
-                </p>
+                </p> -->
                 <ul class="list-disc mt-3 list-inside">
                   <li>
                     <a
@@ -240,10 +241,10 @@
             >
               Traditional CV
             </h3>
-            <p class="mt-4 max-w-3xl text-xl leading-7 text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit quam
-              corrupti consectetur.
-            </p>
+            <!--<p class="mt-4 max-w-3xl text-xl leading-7 text-gray-500">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit quam
+              corrupti consectetur. 
+            </p>-->
           </div>
           <span class=" rounded-md shadow-sm">
             <a href="/Kristian-Elset-Boe-Resume-CV.pdf" target="blank">
