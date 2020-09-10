@@ -51,10 +51,10 @@
           <h4
             class="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9"
           >
-            Promad.life
+            Lunsj.ai
           </h4>
           <p class="mt-3 text-lg leading-7 text-gray-500">
-            Curated content & community for the Professional Nomad
+            Social connection & knowledge sharing at scale
           </p>
 
           <ul class="mt-10">
@@ -81,9 +81,12 @@
                 </div>
                 <div class="ml-4">
                   <h5 class="text-lg leading-6 font-medium text-gray-900">
-                    Recommendations for destinations, gear and software
+                    Social connection
                   </h5>
-                  <p class="mt-2 text-base leading-6 text-gray-500">
+                  <p
+                    v-if="false"
+                    class="mt-2 text-base leading-6 text-gray-500"
+                  >
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Maiores impedit perferendis suscipit eaque, iste dolor
                     cupiditate blanditiis ratione.
@@ -114,9 +117,12 @@
                 </div>
                 <div class="ml-4">
                   <h5 class="text-lg leading-6 font-medium text-gray-900">
-                    Blog & newsletter
+                    Comunity building
                   </h5>
-                  <p class="mt-2 text-base leading-6 text-gray-500">
+                  <p
+                    v-if="false"
+                    class="mt-2 text-base leading-6 text-gray-500"
+                  >
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Maiores impedit perferendis suscipit eaque, iste dolor
                     cupiditate blanditiis ratione.
@@ -153,9 +159,12 @@
                 </div>
                 <div class="ml-4">
                   <h5 class="text-lg leading-6 font-medium text-gray-900">
-                    Nuxt and Vue , Netlify & AWS Lambda
+                    Nuxt, Nest & Firebase @ Netlify & Heroku
                   </h5>
-                  <p class="mt-2 text-base leading-6 text-gray-500">
+                  <p
+                    v-if="false"
+                    class="mt-2 text-base leading-6 text-gray-500"
+                  >
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Maiores impedit perferendis suscipit eaque, iste dolor
                     cupiditate blanditiis ratione.
@@ -202,16 +211,10 @@
           />
           <div class="flex mt-6 justify-center">
             <a
-              href="https://promad.life"
+              href="https://lunsj.ai"
               class="rounded-lg px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 bg-bvRed hover:bg-red-300 md:text-lg xl:text-base text-white font-semibold leading-tight shadow-md z-10"
               data-v-fac77be2=""
               >Visit site</a
-            >
-            <a
-              href="/insights?swipestatsid=b98535635fe77db6324d881ac92190e5&amp;demo=true"
-              class="ml-4 rounded-lg px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 bg-white hover:bg-gray-200 md:text-lg xl:text-base text-gray-800 font-semibold leading-tight shadow-md z-10"
-              data-v-fac77be2=""
-              >Source code</a
             >
           </div>
         </div>
@@ -287,7 +290,10 @@
                     <h5 class="text-lg leading-6 font-medium text-gray-900">
                       Find your optimal home
                     </h5>
-                    <p class="mt-2 text-base leading-6 text-gray-500">
+                    <p
+                      v-if="false"
+                      class="mt-2 text-base leading-6 text-gray-500"
+                    >
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                       Maiores impedit perferendis suscipit eaque, iste dolor
                       cupiditate blanditiis ratione.
@@ -320,7 +326,10 @@
                     <h5 class="text-lg leading-6 font-medium text-gray-900">
                       Alone or in groups
                     </h5>
-                    <p class="mt-2 text-base leading-6 text-gray-500">
+                    <p
+                      v-if="false"
+                      class="mt-2 text-base leading-6 text-gray-500"
+                    >
                       Newlyweds or fratmates, Homehunter takes all users
                       preferences into consideration when sorting apartments.
                     </p>
@@ -358,7 +367,10 @@
                     <h5 class="text-lg leading-6 font-medium text-gray-900">
                       Typescript, React & Heroku
                     </h5>
-                    <p class="mt-2 text-base leading-6 text-gray-500">
+                    <p
+                      v-if="false"
+                      class="mt-2 text-base leading-6 text-gray-500"
+                    >
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                       Maiores impedit perferendis suscipit eaque, iste dolor
                       cupiditate blanditiis ratione.
@@ -459,7 +471,10 @@
                   <h5 class="text-lg leading-6 font-medium text-gray-900">
                     Visualize data
                   </h5>
-                  <p class="mt-2 text-base leading-6 text-gray-500">
+                  <p
+                    v-if="false"
+                    class="mt-2 text-base leading-6 text-gray-500"
+                  >
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Maiores impedit perferendis suscipit eaque, iste dolor
                     cupiditate blanditiis ratione.
@@ -492,7 +507,10 @@
                   <h5 class="text-lg leading-6 font-medium text-gray-900">
                     Share and compare
                   </h5>
-                  <p class="mt-2 text-base leading-6 text-gray-500">
+                  <p
+                    v-if="false"
+                    class="mt-2 text-base leading-6 text-gray-500"
+                  >
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Maiores impedit perferendis suscipit eaque, iste dolor
                     cupiditate blanditiis ratione.
@@ -514,14 +532,12 @@
                     >
                       <path
                         d="M10.3246 4.31731C10.751 2.5609 13.249 2.5609 13.6754 4.31731C13.9508 5.45193 15.2507 5.99038 16.2478 5.38285C17.7913 4.44239 19.5576 6.2087 18.6172 7.75218C18.0096 8.74925 18.5481 10.0492 19.6827 10.3246C21.4391 10.751 21.4391 13.249 19.6827 13.6754C18.5481 13.9508 18.0096 15.2507 18.6172 16.2478C19.5576 17.7913 17.7913 19.5576 16.2478 18.6172C15.2507 18.0096 13.9508 18.5481 13.6754 19.6827C13.249 21.4391 10.751 21.4391 10.3246 19.6827C10.0492 18.5481 8.74926 18.0096 7.75219 18.6172C6.2087 19.5576 4.44239 17.7913 5.38285 16.2478C5.99038 15.2507 5.45193 13.9508 4.31731 13.6754C2.5609 13.249 2.5609 10.751 4.31731 10.3246C5.45193 10.0492 5.99037 8.74926 5.38285 7.75218C4.44239 6.2087 6.2087 4.44239 7.75219 5.38285C8.74926 5.99037 10.0492 5.45193 10.3246 4.31731Z"
-                        stroke="#4A5568"
                         stroke-width="2"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                       />
                       <path
                         d="M15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z"
-                        stroke="#4A5568"
                         stroke-width="2"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -533,7 +549,10 @@
                   <h5 class="text-lg leading-6 font-medium text-gray-900">
                     Database: MongoDB
                   </h5>
-                  <p class="mt-2 text-base leading-6 text-gray-500">
+                  <p
+                    v-if="false"
+                    class="mt-2 text-base leading-6 text-gray-500"
+                  >
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Maiores impedit perferendis suscipit eaque, iste dolor
                     cupiditate blanditiis ratione.
